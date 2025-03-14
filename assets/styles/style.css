@@ -119,7 +119,7 @@ header {
   align-items: center;
   background: url(/assets/gallery/header/image-orage-we-are-creatives.jpg)
     no-repeat center/cover;
-  min-height: 100vh;
+  min-height: 90vh;
   padding-top: 120px;
   gap: var(--spacing-64px);
 }
@@ -137,7 +137,8 @@ header {
  .audience_section {
    display: flex;
    align-items: center;
-   min-height: 80vh;
+   justify-content: center;
+   min-height: 60vh;
 }
 
 .text-content {
@@ -149,13 +150,13 @@ header {
 }
 
 .text-content h2 {
-  font-size: var(--font-size-2-4rem);
+  font-size: 2.4rem;
   color: var(--color-black);
 }
 
 .text-content p {
   font-weight: 700;
-  font-size: var(--font-size-1-5rem);
+  font-size: 1.5rem;
   color: var(--color-gray);
 }
 
