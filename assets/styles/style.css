@@ -129,8 +129,6 @@ header {
   font-size: var(--font-size-3rem);
   color: var(--color-white);
 }
-/* ------------------------- */
-
 
 /* ----TRANSFORM & AUDIENCE SECTION ----  */
 .transform_section, 
@@ -138,7 +136,6 @@ header {
    display: flex;
    align-items: center;
    justify-content: center;
-   min-height: 60vh;
 }
 
 .text-content {
@@ -182,10 +179,7 @@ header {
   display: block;
 }
 
-/* ------------------------- */
-
 /* ---- GRAPHYC & PHOTOGRAPHY SERVICES SECTION ----  */
-
 .services_section {
   display: flex;
   justify-content: center;
@@ -224,7 +218,6 @@ header {
   padding: 0 var(--spacing-64px) var(--spacing-32px) var(--spacing-64px);
   line-height: 1.5;
 }
-/* ------------------------- */
 
 /* ---- CLIENT TESTIMONIALS SECTION ----  */
 .testimonials_section {
@@ -280,7 +273,6 @@ header {
 .item_bottom-text p {
   color: var(--color-very-ligth-gray);
 }
-/* ------------------------- */
 
 /* ------------------------------- FOOTER ---------------------------------- */
 #footer {
@@ -298,7 +290,6 @@ header {
 .footer_images img {
   width: 25%;
 }
-/* ------------------------- */
 
 /* ---- FOOTER BOTTOM SECTION ----  */
 .footer_bottom {
@@ -324,4 +315,3 @@ header {
   color: var(--color-green);
   margin: 0 var(--spacing-14px);
 }
-/* ------------------------- */

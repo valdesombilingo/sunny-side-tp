@@ -45,7 +45,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: var(--spacing-32px) var(--spacing-32px);
+        padding: 15% 10%;
         max-width: 100%;
     }
 
@@ -72,7 +72,7 @@
 
     .service-content {
         max-width: 100%;
-        padding-top: 50%;
+        padding-top: 55%;
     }
 
     .service-content h2 {
@@ -165,7 +165,7 @@
         align-items: center;
         text-align: center;
         padding: var(--spacing-64px) var(--spacing-32px);
-        min-height: 45vh;
+        padding: 20% 12%;
         max-width: 100%;
     }
     .text-content h2 {
@@ -189,7 +189,7 @@
 
     .service-content {
         max-width: 100%;
-        padding-top: 50%;
+        padding-top: 55%;
     }
     
     .service-content h2 {
@@ -236,6 +236,8 @@
 
 /* RESPONSIVE TABLETTE  */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+/* HEADER */
     .header_container {
         padding: var(--spacing-16px) var(--spacing-16px) 0 var(--spacing-16px);
     }
@@ -265,10 +267,6 @@
     }
 
     /* TRANSFORM & AUDIENCE SECTION */
-    .transform_section, 
-    .audience_section {
-        min-height: 27vh;
-}
     .text-content {
         padding: var(--spacing-64px) var(--spacing-32px);
     }
@@ -292,9 +290,4 @@
         font-size: 1rem;
         padding: 0 var(--spacing-32px) var(--spacing-24px) var(--spacing-32px);
     }
-}
-
-/* TESTIMONIALS SECTION */
-.testimonials_section {
-    margin: var(--spacing-64px) var(--spacing-48px);
 }
