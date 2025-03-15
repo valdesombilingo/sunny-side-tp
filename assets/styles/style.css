@@ -200,7 +200,8 @@ header {
   gap: var(--spacing-24px);
   color: var(--color-green);
   max-width: 50%;
-  min-height: 80vh;
+  /* min-height: 80vh; */
+  padding-top: 26%;
 }
 
 .service-content.graphic-design {

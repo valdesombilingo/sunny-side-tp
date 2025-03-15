@@ -72,7 +72,7 @@
 
     .service-content {
         max-width: 100%;
-        min-height: 55vh;
+        padding-top: 50%;
     }
 
     .service-content h2 {
@@ -89,7 +89,7 @@
     }
 
     .testimonials_section h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .testmonials_items {
@@ -189,7 +189,7 @@
 
     .service-content {
         max-width: 100%;
-        min-height: 43vh;
+        padding-top: 50%;
     }
     
     .service-content h2 {
@@ -235,7 +235,7 @@
 }
 
 /* RESPONSIVE TABLETTE  */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .header_container {
         padding: var(--spacing-16px) var(--spacing-16px) 0 var(--spacing-16px);
     }
@@ -283,7 +283,7 @@
     }
 
     .service-content {
-        min-height: 35vh;
+        padding-top: 26%;
     }
     .service-content h2 {
         font-size: 1.2rem;
